@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\api\\Web.csproj",
+      "projectUniqueName": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\api\\Web.csproj",
+      "projectPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\NEW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\api\\obj\\",
+      "outputPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NEW\\AppData\\Roaming\\NuGet\\NuGet.Config",

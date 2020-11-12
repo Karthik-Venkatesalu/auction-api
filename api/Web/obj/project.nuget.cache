@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ik/jdtpQaREbAd8F0T3ibitIFA1fj5pvKeBAStbeQy1lr+l8AGOjH2soKwVPgnRyLvvcHZoEJCGyNNI39B2Feg==",
+  "dgSpecHash": "TrOSNmdtvV/2Zrv0Aqfe+fNKBrqi09UAPcDhMCxb7NSxsCS83lc2Xjp4pirW9CGbqHU2hqIJV8uafmdq7WYVWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\api\\Web.csproj",
+  "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Web\\Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
