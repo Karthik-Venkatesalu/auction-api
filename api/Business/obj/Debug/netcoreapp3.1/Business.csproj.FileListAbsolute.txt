@@ -1,0 +1,9 @@
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\obj\Debug\netcoreapp3.1\Business.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Business\obj\Debug\netcoreapp3.1\Business.pdb

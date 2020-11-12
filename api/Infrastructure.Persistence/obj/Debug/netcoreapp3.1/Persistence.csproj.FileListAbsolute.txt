@@ -1,0 +1,9 @@
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\bin\Debug\netcoreapp3.1\Persistence.deps.json
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\bin\Debug\netcoreapp3.1\Persistence.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\bin\Debug\netcoreapp3.1\Persistence.pdb
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\obj\Debug\netcoreapp3.1\Persistence.csprojAssemblyReference.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfoInputs.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\obj\Debug\netcoreapp3.1\Persistence.AssemblyInfo.cs
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\obj\Debug\netcoreapp3.1\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\obj\Debug\netcoreapp3.1\Persistence.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Persistence\obj\Debug\netcoreapp3.1\Persistence.pdb
