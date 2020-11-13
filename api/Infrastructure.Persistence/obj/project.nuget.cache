@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "174VrQV8DDaykKAcAqFp5ZcykVyIkVK4GRu0zX/A5yTpx1tY6/YQ1WLf18XrFFfsTMf8bWzl5S0+R32zAnEb1g==",
+  "dgSpecHash": "bRpTVP5IppwPoSIK4qNHitR3IKmBcsmmfPm4Ixm8vev43C3wAP2hlk10wRJTDr750Po3kVd0NUa/aL5g+y80IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure.Persistence\\Persistence.csproj",
+  "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

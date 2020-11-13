@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
-      "projectName": "Infrastructure.Persistence",
-      "projectPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\NEW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NEW\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{3DE50E34-671F-416D-B82A-466452F56192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9DDDC65E-6B82-44BA-82E8-7BCBCCE00B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{9DDDC65E-6B82-44BA-82E8-7BCBCCE00B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Service", "Infrastructure.Service\Infrastructure.Service.csproj", "{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Infrastructure.Persistence\Persistence.csproj", "{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Persistence", "Infrastructure.Persistence\Infrastructure.Persistence.csproj", "{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{310CF5CA-1117-4F8F-AE25-1074D127D5C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{310CF5CA-1117-4F8F-AE25-1074D127D5C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

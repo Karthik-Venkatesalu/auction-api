@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MLQLXBzPk6CT4buOTtlCIqrVrq4lcZP/kIZ2qAuJwUMIKqPk6r6SdXYCScAGn5gxnNSFgt8mCvXTTZj7Q9i9Dg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure.Service\\Infrastructure.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NEW\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
