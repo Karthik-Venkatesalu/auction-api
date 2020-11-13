@@ -7,5 +7,6 @@ namespace Application
     internal static class HttpStatusCodes
     {
         public const int InternalServerError = 500;
+        public const int BadRequestError = 400;
     }
 }

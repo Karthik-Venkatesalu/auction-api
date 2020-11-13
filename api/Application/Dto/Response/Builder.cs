@@ -1,13 +1,13 @@
-﻿using Application.Response.Model;
+﻿using Application.Dto.Response.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Application.Response
 {
-    public static class Factory
+    public static class Builder
     {
-        public static Response<T> CreateSuccessResponse<T>(T instance) // where T : IConvertible TODO: implement IConvertible in Domain Objects
+        public static Response<T> BuildSuccessResponse<T>(T instance) // where T : IConvertible TODO: implement IConvertible in Domain Objects
         {
             return new Response<T>()
             {
@@ -15,7 +15,7 @@ namespace Application.Response
             };
         }
 
-        public static ErrorResponse CreateErrorResponse(Errors errors)
+        public static ErrorResponse BuildErrorResponse(Errors errors)
         {
             return new ErrorResponse()
             {

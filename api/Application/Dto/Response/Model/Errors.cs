@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 
-namespace Application.Response.Model
+namespace Application.Dto.Response.Model
 {
     public class Errors
     {

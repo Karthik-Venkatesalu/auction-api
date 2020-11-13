@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain.Entities
 {
-    public class BiddingData
+    public class BiddingRecord
     {
         public int ID { get; set; }
 
@@ -27,5 +27,10 @@ namespace Domain.Entities
         /// 
         /// </summary>
         public int MaximumBid { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public int EventID { get; set; }
     }
 }

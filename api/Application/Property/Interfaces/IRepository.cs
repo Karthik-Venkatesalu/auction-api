@@ -9,5 +9,7 @@ namespace Application.Property.Interfaces
     public interface IRepository
     {
         PropertyCatalog GetPropertyCatalog();
+
+        Domain.Entities.Property AddProperty(Domain.Entities.Property property);
     }
 }

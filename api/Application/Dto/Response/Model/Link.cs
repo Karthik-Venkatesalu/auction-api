@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Application.Response.Model
+namespace Application.Dto.Response.Model
 {
     public class Link
     {

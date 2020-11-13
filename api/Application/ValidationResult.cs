@@ -1,4 +1,4 @@
-﻿using Application.Response.Model;
+﻿using Application.Dto.Response.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;

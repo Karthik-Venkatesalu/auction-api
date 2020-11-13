@@ -1,4 +1,6 @@
-﻿using Application.Response;
+﻿using Application.Dto.Request;
+using Application.Response;
+using Application.Dto.Model;
 using Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -26,9 +28,23 @@ namespace api.Controllers
             }
             catch
             {
-                var errorResponse = Factory.InternalServerErrorResponse();
+                var errorResponse = Builder.InternalServerErrorResponse();
                 return StatusCode(StatusCodes.Status500InternalServerError, errorResponse);
             }           
+        }
+
+        [HttpPost]
+        public ActionResult Post(Request<Property> request)
+        {
+            try
+            {
+                return Ok(_facade.AddProperty(request));
+            }
+            catch
+            {
+                var errorResponse = Builder.InternalServerErrorResponse();
+                return StatusCode(StatusCodes.Status500InternalServerError, errorResponse);
+            }
         }
     }
 }

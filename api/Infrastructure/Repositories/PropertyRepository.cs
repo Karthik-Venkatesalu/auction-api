@@ -19,6 +19,13 @@ namespace Infrastructure.Repositories
             };
         }
 
+        public Property AddProperty(Property property)
+        {
+            var newProperty = new Property(property.Name, new Random().Next(), property.OwnerID, property.BasePrice);
+            _propertyCatalog.Properties.Add(newProperty);
+            return newProperty;
+        }
+
         public PropertyCatalog GetPropertyCatalog()
         {
             return _propertyCatalog;
