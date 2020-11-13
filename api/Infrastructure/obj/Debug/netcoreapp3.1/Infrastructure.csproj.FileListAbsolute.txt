@@ -12,17 +12,3 @@ C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Service
 C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Service\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
 C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Service\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure.Service\obj\Debug\netcoreapp3.1\Infrastructure.pdb
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Application.dll
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Domain.dll
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Application.pdb
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\bin\Debug\netcoreapp3.1\Domain.pdb
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CopyComplete
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
-C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
