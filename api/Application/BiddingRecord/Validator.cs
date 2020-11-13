@@ -32,7 +32,7 @@ namespace Application.BiddingRecord
                             new Dto.Response.Model.Error()
                             {
                                 Id = Guid.NewGuid().ToString(),
-                                Detail = "Max bidder validation failed",
+                                Detail = "Validation failed",
                                 Status = HttpStatusCodes.BadRequestError.ToString(),
                                 Title = "Invalid Request"
                             }

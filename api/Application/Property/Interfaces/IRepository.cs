@@ -11,5 +11,6 @@ namespace Application.Property.Interfaces
         PropertyCatalog GetPropertyCatalog();
 
         Domain.Entities.Property AddProperty(Domain.Entities.Property property);
+        Domain.Entities.Property GetProperty(int propertyID);
     }
 }

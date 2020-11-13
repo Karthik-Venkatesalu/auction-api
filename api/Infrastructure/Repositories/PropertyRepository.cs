@@ -2,6 +2,7 @@
 using Domain.Entities;
 using System;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace Infrastructure.Repositories
 {
@@ -29,6 +30,11 @@ namespace Infrastructure.Repositories
         public PropertyCatalog GetPropertyCatalog()
         {
             return _propertyCatalog;
+        }
+
+        public Domain.Entities.Property GetProperty(int propertyID)
+        {
+            return _propertyCatalog.Properties.FirstOrDefault(p => p.ID == propertyID);
         }
     }
 }

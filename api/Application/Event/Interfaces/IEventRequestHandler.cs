@@ -7,7 +7,7 @@ namespace Application.Event.Interfaces
 {
     public interface IEventRequestHandler
     {
-        Response<Dto.Model.Event> CreateEvent(Request<Dto.Model.Event> @event);
+        BaseResponse CreateEvent(Request<Dto.Model.Event> @event);
         Response<WinningBidData> PerformAuction(int eventID);
         Response<IEnumerable<Dto.Model.Event>> GetEvents();
         Response<Dto.Model.Event> GetEvent(int eventID);

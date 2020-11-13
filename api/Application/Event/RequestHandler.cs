@@ -14,15 +14,27 @@ namespace Application.Event
     {
         private readonly IRepository _repository;
         private readonly BiddingRecord.Interfaces.IRepository _biddingRecordRepository;
+        private readonly Property.Interfaces.IRepository _propertyRepository;
 
-        public RequestHandler(IRepository repository, BiddingRecord.Interfaces.IRepository biddingRecordRepository)
+        public RequestHandler(
+            IRepository repository, 
+            BiddingRecord.Interfaces.IRepository biddingRecordRepository,
+            Property.Interfaces.IRepository propertyRepository)
         {
             _repository = repository ?? throw new ArgumentNullException("repository");
-            _biddingRecordRepository = biddingRecordRepository ?? throw new ArgumentNullException("auctionService");
+            _biddingRecordRepository = biddingRecordRepository ?? throw new ArgumentNullException("biddingRecordRepository");
+            _propertyRepository = propertyRepository ?? throw new ArgumentNullException("propertyRepository");
         }
 
-        public Response<Dto.Model.Event> CreateEvent(Request<Dto.Model.Event> eventRequest)
+        public BaseResponse CreateEvent(Request<Dto.Model.Event> eventRequest)
         {
+            var validationResult = new Validator(_propertyRepository).Validate(eventRequest.Data);
+
+            if (!validationResult.Success)
+            {
+                return Builder.BuildErrorResponse(validationResult.Errors);
+            }
+
             return Builder.BuildSuccessResponse(_repository.CreateEvent(eventRequest.Data.MapToDomain()).MapToDto());
         }
 

@@ -15,7 +15,7 @@ namespace Infrastructure.Interfaces
         Response<Property> AddProperty(Request<Property> propertyRequest);
 
         // Event
-        Response<Event> AddEvent(Request<Event> eventRequest);
+        BaseResponse AddEvent(Request<Event> eventRequest);
         Response<IEnumerable<Event>> GetEvents();
         Response<Event> GetEvent(int eventID);
         Response<WinningBidData> PerformAuction(int eventID);

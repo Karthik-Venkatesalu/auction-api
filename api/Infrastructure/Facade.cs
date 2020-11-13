@@ -52,7 +52,7 @@ namespace Infrastructure
             return _propertyRequestHandler.AddProperty(propertyRequest);
         }
 
-        public Response<Event> AddEvent(Request<Event> eventRequest)
+        public BaseResponse AddEvent(Request<Event> eventRequest)
         {
             return _eventRequestHandler.CreateEvent(eventRequest);
         }
