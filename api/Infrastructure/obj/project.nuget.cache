@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "klPjkWDd2SpSBa5UuKs9DdcAbHLU3UyP/9ZLE1W8Uy2j20rHl25fNZCUUyewFSYw9j7NwJ8pvnGnpDsgJP8lyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NEW\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\NEW\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

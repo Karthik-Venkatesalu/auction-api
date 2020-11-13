@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{9DDDC65E-6B82-44BA-82E8-7BCBCCE00B59}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Service", "Infrastructure.Service\Infrastructure.Service.csproj", "{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Persistence", "Infrastructure.Persistence\Infrastructure.Persistence.csproj", "{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{310CF5CA-1117-4F8F-AE25-1074D127D5C0}"
 EndProject
@@ -31,10 +29,6 @@ Global
 		{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54C18C4B-85C9-49EB-B199-BE9A81E4AE67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C19CECF-29AA-4A07-AA1A-20FC7AD0C0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{310CF5CA-1117-4F8F-AE25-1074D127D5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{310CF5CA-1117-4F8F-AE25-1074D127D5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{310CF5CA-1117-4F8F-AE25-1074D127D5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU

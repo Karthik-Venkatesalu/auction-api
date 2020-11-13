@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Application.Response;
+using Infrastructure.Interfaces;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace api.Controllers
 {
@@ -11,29 +10,25 @@ namespace api.Controllers
     [Route("[controller]")]
     public class PropertiesController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        private readonly IFacade _facade;
 
-        private readonly ILogger<PropertiesController> _logger;
-
-        public PropertiesController(ILogger<PropertiesController> logger)
+        public PropertiesController(IFacade facade)
         {
-            _logger = logger;
+            _facade = facade;
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public ActionResult Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            try
             {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+                return Ok(_facade.GetPropertyCatalog());
+            }
+            catch
+            {
+                var errorResponse = Factory.InternalServerErrorResponse();
+                return StatusCode(StatusCodes.Status500InternalServerError, errorResponse);
+            }           
         }
     }
 }

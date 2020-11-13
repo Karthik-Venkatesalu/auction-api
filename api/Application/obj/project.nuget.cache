@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WrBsmmb5FroYmSCc4ruXuh1w4uuNn9a+zfnZO15d6kq3izL4LetibK1CdXQKMj2yYrs6olOqMnEThG/c+Dl/lQ==",
+  "dgSpecHash": "6BGILtTf6eDJrm+E2x4WXtLxiFGr/KikziEvz3ApCNAOiqfoNWAhHqFpBRJXHqKGvJsLisUoavBaJ3ZUDXnzGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\NEW\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

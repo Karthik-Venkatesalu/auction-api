@@ -18,3 +18,12 @@ C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\obj\Debug\netcorea
 C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\obj\Debug\netcoreapp3.1\Web.pdb
 C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\obj\Debug\netcoreapp3.1\Web.genruntimeconfig.cache
 C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\obj\Debug\netcoreapp3.1\Web.csprojAssemblyReference.cache
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\NEW\source\repos\Karthik-Venkatesalu\auction\api\Web\obj\Debug\netcoreapp3.1\Web.csproj.CopyComplete

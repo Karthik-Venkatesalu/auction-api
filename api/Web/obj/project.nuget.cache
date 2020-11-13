@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iiD3QJI5CQkGUNO67ToL960IdPbTxslQWGQKsU9SwSiM6soGl2wELkGJ2onXXx+KuUdgOCHGjSdgxLurcUlgag==",
+  "dgSpecHash": "3Lx4vFrIggSWecKWZ8TCL1IO9XTpV8q8z6RRxQRleIvYLC6N+NW+67lZLSPLZP5N/ygQXdGDSxc7LHqBVEMb0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\NEW\\source\\repos\\Karthik-Venkatesalu\\auction\\api\\Web\\Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\NEW\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\NEW\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
