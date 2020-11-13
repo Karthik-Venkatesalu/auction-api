@@ -30,6 +30,8 @@ namespace api
             services.AddControllers().AddJsonOptions(jsonOptions => { jsonOptions.JsonSerializerOptions.IgnoreNullValues = true; });
             services.AddInfrastructureServices();
             services.AddApplicationServices();
+
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +41,13 @@ namespace api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Auction API");
+            });
 
             app.UseHttpsRedirection();
 
